@@ -1,4 +1,4 @@
-# homework1
+# homework0
 Setting Up Cargo and Hello World!
 
 This assignment is merely setting up rust and the programming environment for the course. Cargo is the package manager and build tool for rust (no makefiles here!).
