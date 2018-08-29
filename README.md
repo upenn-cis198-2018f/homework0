@@ -13,7 +13,7 @@ Note: If your implementation acts differently on the grading machine because of 
 ### Rust Versions
 As of this writing I am using Rust Stable 1.28. We will use the newest stable version available for every assignment. Please read  about [the rust train release model](https://doc.rust-lang.org/book/second-edition/appendix-07-nightly-rust.html#choo-choo-release-channels-and-riding-the-trains) for more information. I am using the rust target stable-x86_64-unknown-linux-gnu
 
-Note: For our supposes, it won't really make a difference. But this will ensure everyone is working off the same base.
+Note: For our purposes, it won't really make a difference. But this will ensure everyone is working off the same base.
 
 ## Setup
 
