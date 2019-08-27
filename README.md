@@ -1,9 +1,12 @@
-# homework0
+# Homework 0
+
 Setting Up Cargo and Hello World!
 
-This assignment is merely setting up rust and the programming environment for the course. Cargo is the package manager and build tool for rust (no makefiles here!).
+This assignment is merely setting up Rust and the programming environment for the course. Cargo is the package manager and build tool for rust (no makefiles here!).
 
-Email me your github username you plan to use for submitting the assignments!
+1) **Email me your github username you plan to use for submitting the assignments!**
+2) Set up a Linux System
+3) Set up Rust
 
 ### Operating System
 We will be programming systems programs which often rely on OS implementation details to work. Specifically we will be focusing on Linux x86-64. You may use any distro you like for this, while I expect the distro not to make much of a difference, I will be grading/testing the assignments with Ubuntu 18.04 LTS using kernel version 4.15.
@@ -11,9 +14,9 @@ We will be programming systems programs which often rely on OS implementation de
 Note: If your implementation acts differently on the grading machine because of subtle differences or bugs across distros or OS versions, don't worry. We will figure it out together and no harm will come to your grade.
 
 ### Rust Versions
-As of this writing I am using Rust Stable 1.28. We will use the newest stable version available for every assignment. Please read  about [the rust train release model](https://doc.rust-lang.org/book/second-edition/appendix-07-nightly-rust.html#choo-choo-release-channels-and-riding-the-trains) for more information. I am using the rust target stable-x86_64-unknown-linux-gnu
+As of this writing, the latest version of Rust is 1.37.0. We will use the newest stable version available for every assignment. Please read  about [the rust train release model](https://doc.rust-lang.org/book/second-edition/appendix-07-nightly-rust.html#choo-choo-release-channels-and-riding-the-trains) for more information. I am using the rust target stable-x86_64-unknown-linux-gnu
 
-Note: For our purposes, it won't really make a difference. But this will ensure everyone is working off the same base.
+Note: For our purposes, it won't really make a difference. But this will ensure everyone is working off the same base. So don't really worry about it.
 
 ## Setup
 
