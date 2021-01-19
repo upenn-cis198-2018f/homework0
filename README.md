@@ -30,7 +30,9 @@ If you run into any trouble, don't worry! Let me know and I will try to help you
 
 - **On Windows,** I recommend using Windows Subsystem for Linux (WSL 2), which has matured in recent years and seems to be the de facto standard. You can follow [this guide](https://docs.microsoft.com/en-us/windows/wsl/install-win10). You will also need to decide how you want to edit your code -- from within or from outside WSL. Either way can work, though from within is more setup (you need X11 forwarding to run GUI programs -- I've used Xming in the past. Try [this guide](https://medium.com/swlh/get-wsl2-working-on-windows-10-2ee84ef8ed43)).
 
-- **On Mac,** I am recommending VirtualBox: you can download it [here](https://www.virtualbox.org/) and you can get an Ubuntu image (`.iso`) by downloading from [here](Ubuntu 18.04 LTS [image](https://www.ubuntu.com/download/desktop). Basically you create a virtual machine, decide how much memory and storage it needs, then when you launch it you select the `.iso` image to load Ubuntu.
+- **Using your ENIAC account** and logging in through SSH may be the easiest solution on MacOS. Follow the instructions [here](https://cets.seas.upenn.edu/answers/remote.html) to set up remote access.
+
+- **VirtualBox** is recommended if the above don't work or apply. You can download it [here](https://www.virtualbox.org/) and you can get an Ubuntu 18.04 LTS image (`.iso`) by downloading from [here](https://www.ubuntu.com/download/desktop). Basically you create a virtual machine, decide how much memory and storage it needs, then when you launch it you select the `.iso` image to load Ubuntu.
 
 ### Installing Rust
 
